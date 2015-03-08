@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamPilgrim.VisualStudio", "TeamPilgrim.VisualStudio\TeamPilgrim.VisualStudio.csproj", "{A8E17ADD-F572-4150-A153-F14C43A06B30}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{14A28DB2-B3E6-42EE-970C-7C0FBB5FC11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamPilgrim.VisualStudio", "TeamPilgrim.VisualStudio\TeamPilgrim.VisualStudio.csproj", "{A8E17ADD-F572-4150-A153-F14C43A06B30}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamPilgrim.VisualStudio.Tests", "TeamPilgrim.VisualStudio.Tests\TeamPilgrim.VisualStudio.Tests.csproj", "{A1665C09-1291-43CA-8E1F-EE1B40E34563}"
 EndProject

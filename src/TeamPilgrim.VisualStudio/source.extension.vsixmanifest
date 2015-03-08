@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="f56b8666-3ef2-46e5-ac26-8aa0efe1f484" Version="0.2.1" Language="en-US" Publisher="JustAProgrammer" />
+    <Identity Id="f56b8666-3ef2-46e5-ac26-8aa0efe1f484" Version="0.2.2" Language="en-US" Publisher="JustAProgrammer" />
     <DisplayName>TeamPilgrim</DisplayName>
-    <Description xml:space="preserve">A replacement for Visual Studio 2012's Team Explorer inspired by the Visual Studio 2010's Team Explorer</Description>
+    <Description xml:space="preserve">A replacement for Visual Studio 2013's Team Explorer inspired by the Visual Studio 2010's Team Explorer</Description>
   </Metadata>
   <Installation InstalledByMsi="false">
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
